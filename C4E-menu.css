@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* heading */
+.heading{
+    display :flex;
+    background-color:rgb(59, 58, 58);
+    list-style-type: none; 
+    width: 100%;
+    position:fixed;
+    opacity:0.8;
+    filter: alpha(opacity=80);     
+    z-index: 9;
+}
+.heading-logo{
+    flex:auto;
+}
+.heading-logo1{
+    width: 90px;
+    height:90px;
+    
+}
+.heading-menu{
+    padding:20px;
+    display:flex;      
+}
+.heading-button{
+    background-color: rgb(175, 189, 115);
+    padding:10px;
+    border: 1px;
+    border-radius:10px;
+}
+.heading-list{
+    padding:15px;
+    color:white;
+}
+.heading-list:hover{
+color:rgb(223, 134, 18);
+}
+.heading-list a:hover{
+    color:rgb(223, 134, 18);
+}
+.heading-container {
+    display:flex;
+    max-width: 60%;
+    flex:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cover img{
+    width:100%;
+}
+.heading-list a{
+    color:white;
+    text-decoration:none;
+} 
+/* kêt thúc heading */ 
+#content{
+    background-color: black;
+    color: white;
+}
+#container-content{
+    width: 80%;
+    margin: auto;
+}
+.section1{
+    margin-bottom: 30px;
+}
+.intro{
+    display: flex;
+}
+.intro .content-intro{
+    width: 50%;
+    display: block;
+    font-size: 16px;
+    padding: 20px;  
+    margin: auto;
+    line-height: 28px;
+}
+.intro .content-intro h3,p{
+    margin: 20px;
+}
+.intro .img-intro{
+    width: 50%;
+    padding: 20px;
+    display: inline-block;
+}
+.intro .img-intro img{
+    width: 100%;
+}
+.section2{
+    margin-bottom: 30px;
+}
+.list-menu{
+    display: flex;
+}
+.list-menu .set{
+    width: 33%;
+    height: 525px;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.list-menu .set img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.list-menu .set h3{
+  margin-top: 10px;
+    padding: 20px;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.list-menu .set p{
+    padding: 20px;
+    margin-left: 10px;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    line-height: 28px;
+}
+
+.list-menu .set .button{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+#set1{
+    background-color: rgb(50 46 45);
+}
+#set2{
+    background-color: rgb(225 216 211);
+    color: black;
+}
+#set3{
+    background-color: rgb(23 21 22);
+}
+.khaivi-1 {
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+    height: 800px;
+}
+.khaivi-2 {
+    float: left;
+    width: 30%;   
+    margin-right: 10%;
+    height: 800px;
+}
+.khaivi-3 {
+    float: left;
+    width: 30%;   
+    margin-left: 10%;
+    height: 800px;
+}
+.khaivi-4 {
+    float: left;
+    width: 50%;   
+    margin-right: 10%;
+    height: 800px;
+}
+.khaivi-5 {
+    margin-right: 15%;
+    margin-left: 15%;
+    width: 70%;
+    height: 1000px;
+
+}
+.khaivi-6 {
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 650px;
+}
+ #footer {
+  background-image: url('https://cdn.glitch.global/274acee9-eef6-4db8-86ba-2b06b324f910/rockywall1.jpg?v=1648647934518');
+  color: rgb(214, 203, 203);
+  display:flex;
+  height: 460px;
+}
+.footer-information  {
+  width : 30%;
+  padding: 50px;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400px;
+  letter-spacing: 0px;
+}
+.footer-contact  {
+  width: 30%;
+  padding: 50px;
+}
+.footer-address  {
+  padding: 50px;
+  width: 40%;
+}
+.footer-element {
+  font-size: 22px;
+  line-height: 23px;
+  font-weight: 400px;
+  letter-spacing: 0px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+iframe {
+  width : 400px;
+  height : 220px;
+  margin-top: 15px;
+}
+
+.footer-logo {
+  height : 120px;
+  width: 200px;
+  margin-top: 20px;
+}
